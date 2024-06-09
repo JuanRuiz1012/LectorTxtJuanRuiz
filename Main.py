@@ -20,7 +20,7 @@ def encontrar_patrones(texto):
     patron_exclamaciones = r'[\w\s]+[!¡]'
     
     #Script para abreviaciones mas comunes de ambos lenguajes
-    patron_abreviaciones = r"\b(?:I'm|he's|it's|we're|I've|don't|Jr\.|Dr\.|Sr\.|Sra\.|Ud\.|Dpto\.|Pág\.)\b"
+    patron_abreviaciones = r"\b(?:i'm|he's|it's|we're|i've|don't|Jr\.|dr\.|sr\.|sra\.|Ud\.|dpto\.|Pág\.)\b"
 
     
     #Patron para encontrar las palabras
